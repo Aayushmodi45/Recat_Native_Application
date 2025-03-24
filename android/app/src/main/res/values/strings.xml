@@ -1,0 +1,8 @@
+<resources>
+  <string name="app_name">Final_Assignment</string>
+  <string name="expo_splash_screen_resize_mode" translatable="false">contain</string>
+  <string name="expo_splash_screen_status_bar_translucent" translatable="false">false</string>
+  <string name="facebook_app_id">567657682999729</string>
+  <string name="facebook_client_token">99621e546c0c3857a9bb96abbc52d5d0</string>
+  <string name="fb_login_protocol_scheme">fb567657682999729</string>
+</resources>

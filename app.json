@@ -1,0 +1,83 @@
+{
+  "expo": {
+    "name": "Final_Assignment",
+    "slug": "Final_Assignment",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Logo.png",
+    "userInterfaceStyle": "light",
+    "facebookAppId": "567657682999729",
+    "facebookDisplayName": "Final_App",
+    "facebookScheme": "fb567657682999729",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "CAMERA"
+      ],
+      "package": "com.aayushmodi.Final_Assignment",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Final_Assignment to use your location."
+        }
+      ],
+      [
+        "react-native-vision-camera",
+        {
+          "cameraPermission": "Allow Final_Assignment to access your camera."
+        }
+      ],
+      "expo-sqlite",
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "567657682999729",
+          "clientToken": "99621e546c0c3857a9bb96abbc52d5d0",
+          "displayName": "RN SDK Demo",
+          "scheme": "fb567657682999729",
+          "advertiserIDCollectionEnabled": false,
+          "autoLogAppEventsEnabled": false,
+          "isAutoInitEnabled": true,
+          "iosUserTrackingPermission": "This identifier will be used to deliver personalized ads."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      "expo-barcode-scanner"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d13db96c-11f9-4eed-a752-2b1aedadbeb7"
+      },
+      "facebookAppId": "567657682999729"
+    },
+    "owner": "aayushmodi"
+  }
+}
